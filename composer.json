@@ -22,7 +22,7 @@
         }
     ],
     "autoload": {
-        "classmap": ["TwitterAPIExchange.php"]
+        "files": ["TwitterAPIExchange.php"]
     },
     "extra": {
         "branch-alias": {

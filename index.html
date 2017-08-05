@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Grabber</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		#form-box{
+			border-color: grey;
+			border-style: solid;
+			display: inline-block;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<br>
+	<h2><center>Tweet Grabber</center></h2>
+	<h3><center>Designed for NLP assignment</center></h3>
+	<br>
+	<center>
+		<div id="form-box"><h4><center>Insert Twitter ID (without '@') in text box below<br>!! Make sure the account isn't private !!</center></h4>
+			<form action="grab.php" method="get">
+				username: <input type="text" name="username"><br>
+				Enable Numbering <input type="checkbox" name="chkNum" value="Enable Numbering"> || 
+				Show ReTweets <input type="checkbox" name="chkRT" value="Show Retweets"><br>
+				<input type="submit">
+			</form>
+		</center>
+	</div>
+<center>
+<br><br>
+
+
+</center>
+<center>
+
+
+</body>
+<footer>
+<center><br><br><br><br><br>
+Created by : Jeff<br>
+Using TwitterAPIExchange by <a href="https://github.com/J7mbo">J7mbo</a>
+</footer>
+</center>
+</html>
